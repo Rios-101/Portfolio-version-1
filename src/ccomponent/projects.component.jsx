@@ -3,6 +3,8 @@ import Shop from "../image/shop.png"
 import Movie from "../image/movie.png"
 import Button from "./Button.component"
 import Series from "../image/series.png"
+import NaijaCP from "../image/NaijaCp.png"
+
 
 const Projects = ()=>{
 
@@ -20,6 +22,17 @@ const Projects = ()=>{
                     <Button value={'React.js'}/>
                     
                     <Button value={'React Reducers'}/>
+                    </div>
+                </div>
+                <div className="flex flex-col items-center py-3 text-center shadow-2xl">
+                    <a href="https://naijacp.com/shop?u=Naijacp" target="_blank" rel="noreferrer"><h3 className="font-bold pb-2 dark:text-[#B33030]">Naija CP</h3></a>
+                    <a href="https://naijacp.com/shop?u=Naijacp" target="_blank" rel="noreferrer"><img className="mx-auto w-60 h-60 rounded " src={NaijaCP} alt="profile"/></a>
+                    <p className="dark:text-white py-2 text-gray-600">A Website for selling and buying Mobal games currency</p>
+                    <div className="grid grid-cols-3 gap-3">
+                    <Button value={'Tailwind'}/>
+                    <Button value={'JavaScript'}/>
+                    <Button value={'React.js'}/>
+                    <Button value={'PHP'}/>
                     </div>
                 </div>
                 <div className="flex flex-col items-center text-center shadow-2xl">
@@ -57,6 +70,7 @@ const Projects = ()=>{
                     <Button value={'React.js'}/>
                     </div>
                 </div>
+                
             </div>
         </div>
     )
