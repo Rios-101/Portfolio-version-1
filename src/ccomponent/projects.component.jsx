@@ -36,8 +36,8 @@ const Projects = ()=>{
                     </div>
                 </div>
                 <div className="flex flex-col items-center text-center shadow-2xl">
-                    <a href="https://dulcet-wisp-d2be0d.netlify.app/" target="_blank" rel="noreferrer"><h3 className="dark:text-[#B33030] font-bold pb-2">GitHub Finder</h3></a>
-                    <a href="https://dulcet-wisp-d2be0d.netlify.app/" target="_blank" rel="noreferrer"><img className="mx-auto w-60 h-60 rounded " src={Git} alt="profile"/></a>
+                    <a href="https://rios-github-finder.netlify.app/" target="_blank" rel="noreferrer"><h3 className="dark:text-[#B33030] font-bold pb-2">GitHub Finder</h3></a>
+                    <a href="https://rios-github-finder.netlify.app/" target="_blank" rel="noreferrer"><img className="mx-auto w-60 h-60 rounded " src={Git} alt="profile"/></a>
                     <p className="dark:text-white py-2 text-gray-600">A RESTful api web app built with React.js and Tailwind that fetches users information and repos from Github.</p>
                     <div className="grid grid-cols-3 gap-3">
                     <Button value={'Tailwind'}/>
