@@ -27,7 +27,7 @@ const Services = () => {
         </p>
         <div className="text-center py-3">
           <a
-            href="https://drive.google.com/file/d/1vVqRYIih3_6grkTd_5_hs__j3x4uT_MS/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1tNBmduzkWpiKEqGtkML6RJamnjvxn941/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
             className="py-2 font-bold dark:text-[#B33030]"
