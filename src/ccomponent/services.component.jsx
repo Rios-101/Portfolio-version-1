@@ -66,6 +66,10 @@ const Services = () => {
             <h3 className="text-gray-600">React.js</h3>
           </div>
           <div className="flex flex-col items-center">
+            <i class="fas fa-mobile"></i>
+            <h3 className="text-gray-600">React Native</h3>
+          </div>
+          <div className="flex flex-col items-center">
             <i className="text-xl fas fa-cogs"></i>
             <h3 className="text-gray-600">RESTful API</h3>
           </div>
