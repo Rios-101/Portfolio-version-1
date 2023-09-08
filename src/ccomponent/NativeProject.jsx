@@ -41,14 +41,14 @@ const NativeProject = () => {
         </div>
         <div className="flex flex-col items-center py-3 text-center shadow-2xl">
           <a
-            href="https://expo.dev/artifacts/eas/vUd4nDbU5Z58sXTKqXjPVH.apk"
+            href="https://play.google.com/store/apps/details?id=com.rios_101.Naijacp"
             target="_blank"
             rel="noreferrer"
           >
             <h3 className="font-bold pb-2 dark:text-[#B33030]">Naija CP App</h3>
           </a>
           <a
-            href="https://expo.dev/artifacts/eas/vUd4nDbU5Z58sXTKqXjPVH.apk"
+            href="https://play.google.com/store/apps/details?id=com.rios_101.Naijacp"
             target="_blank"
             rel="noreferrer"
           >
