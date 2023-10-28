@@ -9,7 +9,7 @@ const NavBar = ({ darkMode, setDarkMode }) => {
           <i className="dark:text-white fas fa-moon text-2xl "></i>
         </button>
         <a
-          href="https://drive.google.com/file/d/1tNBmduzkWpiKEqGtkML6RJamnjvxn941/view?usp=sharing"
+          href="https://drive.google.com/file/d/1-phtF6qfDSc-mClNeYSkmnIMDY383o9N/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
           className="bg-gradient-to-r from-[#B33030] to-[#A1B57D] text-white font-bold py-1 px-3 rounded"
