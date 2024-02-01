@@ -63,7 +63,7 @@ const Services = () => {
           </div>
           <div className="flex flex-col items-center">
             <i className="text-xl fab fa-react"></i>
-            <h3 className="text-gray-600">React.js</h3>
+            <h3 className="text-gray-600">Next.js</h3>
           </div>
           <div className="flex flex-col items-center">
             <i class="fas fa-mobile"></i>

@@ -3,6 +3,8 @@ import Shop from "../image/shop.png";
 // import Movie from "../image/movie.png";
 import Button from "./Button.component";
 import Series from "../image/series.png";
+import Listeners from "../image/listeners.png";
+import Wokpa from "../image/wokpa.png";
 import NaijaCP from "../image/NaijaCp.png";
 
 const Projects = () => {
@@ -11,8 +13,68 @@ const Projects = () => {
       <h2 className="font-bold text-[#A1B57D] text-2xl text-center py-5">
         React Projects
       </h2>
-      <div className="md:grid md:grid-cols-2 md:gap-2">
-        <div className="flex flex-col items-center text-center shadow-2xl">
+      <div className="md:grid  md:grid-cols-2 md:gap-4">
+        <div className="flex flex-col p-6 items-center text-center shadow-2xl">
+          <a
+            href="https://listener.wokpa.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <h3 className="dark:text-[#B33030] font-bold pb-2">
+              Wokpa Listener
+            </h3>
+          </a>
+          <a
+            href="https://listener.wokpa.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              className="mx-auto w-100 h-60 rounded "
+              src={Listeners}
+              alt="profile"
+            />
+          </a>
+          <p className="dark:text-white py-2 text-gray-600">
+            Wokpa Listeners is the dedicated platform associated with Wokpa, offering users the opportunity to discover an array of podcasts. This platform not only allows users to enjoy diverse content but also enables them to show appreciation by tipping the podcasters for their valuable contributions.
+          </p>
+          <div className="grid grid-cols-3 gap-3">
+            <Button value={"Tailwind"} />
+            <Button value={"Next.js"} />
+            <Button value={"React Query"} />
+          </div>
+        </div>
+        <div className="flex flex-col p-6 items-center text-center shadow-2xl">
+          <a
+            href="https://wokpa.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <h3 className="dark:text-[#B33030] font-bold pb-2">
+              Wokpa
+            </h3>
+          </a>
+          <a
+            href="https://wokpa.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              className="mx-auto w-100 h-60 rounded "
+              src={Wokpa}
+              alt="profile"
+            />
+          </a>
+          <p className="dark:text-white py-2 text-gray-600">
+            Wokpa is the ultimate platform for podcasters in Africans who want to create, monetize, and grow their podcast business.
+          </p>
+          <div className="grid grid-cols-3 gap-3">
+          <Button value={"Tailwind"} />
+            <Button value={"Next.js"} />
+            <Button value={"React Query"} />
+          </div>
+        </div>
+        <div className="flex flex-col p-6 items-center text-center shadow-2xl">
           <a
             href="https://seriesfinder.netlify.app/"
             target="_blank"
@@ -28,7 +90,7 @@ const Projects = () => {
             rel="noreferrer"
           >
             <img
-              className="mx-auto w-60 h-60 rounded "
+              className="mx-auto w-100 h-60 rounded "
               src={Series}
               alt="profile"
             />
@@ -45,7 +107,7 @@ const Projects = () => {
             <Button value={"React Reducers"} />
           </div>
         </div>
-        <div className="flex flex-col items-center py-3 text-center shadow-2xl">
+        <div className="flex flex-col p-6 items-center py-3 text-center shadow-2xl">
           <a
             href="https://naijacp.com/shop?u=Naijacp"
             target="_blank"
@@ -59,7 +121,7 @@ const Projects = () => {
             rel="noreferrer"
           >
             <img
-              className="mx-auto w-60 h-60 rounded "
+              className="mx-auto w-100 h-60 rounded "
               src={NaijaCP}
               alt="profile"
             />
@@ -74,7 +136,7 @@ const Projects = () => {
             <Button value={"PHP"} />
           </div>
         </div>
-        <div className="flex flex-col items-center text-center shadow-2xl">
+        <div className="flex flex-col p-6 items-center text-center shadow-2xl">
           <a
             href="https://rios-github-finder.netlify.app/"
             target="_blank"
@@ -90,7 +152,7 @@ const Projects = () => {
             rel="noreferrer"
           >
             <img
-              className="mx-auto w-60 h-60 rounded "
+              className="mx-auto w-100 h-60 rounded "
               src={Git}
               alt="profile"
             />
@@ -107,7 +169,7 @@ const Projects = () => {
             <Button value={"React Reducers"} />
           </div>
         </div>
-        <div className="flex flex-col items-center py-3 text-center shadow-2xl">
+        <div className="flex flex-col p-6 items-center py-3 text-center shadow-2xl">
           <a
             href="https://poetic-monstera-ac5335.netlify.app"
             target="_blank"
@@ -121,7 +183,7 @@ const Projects = () => {
             rel="noreferrer"
           >
             <img
-              className="mx-auto w-60 h-60 rounded "
+              className="mx-auto w-100 h-60 rounded "
               src={Shop}
               alt="profile"
             />
@@ -139,7 +201,7 @@ const Projects = () => {
             <Button value={"FireBase"} />
           </div>
         </div>
-        {/* <div className="flex flex-col items-center py-3 text-center shadow-2xl">
+        {/* <div className="flex flex-col p-6 items-center py-3 text-center shadow-2xl">
           <a
             href="https://papaya-stardust-fed277.netlify.app/"
             target="_blank"

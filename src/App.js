@@ -21,8 +21,11 @@ function App() {
           <h2 className="font-bold text-[#A1B57D] text-2xl text-center py-5">
             Projects
           </h2>
-          <NativeProject />
+          
           <Projects />
+          <div className="mt-10">
+            <NativeProject />
+          </div>
           <Footer />
         </div>
       </div>
