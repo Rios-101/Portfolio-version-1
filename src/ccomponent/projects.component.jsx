@@ -4,6 +4,7 @@ import Shop from "../image/shop.png";
 import Button from "./Button.component";
 import Series from "../image/series.png";
 import Listeners from "../image/listeners.png";
+import Lendo from "../image/lendo.png";
 import Wokpa from "../image/wokpa.png";
 import NaijaCP from "../image/NaijaCp.png";
 
@@ -14,6 +15,38 @@ const Projects = () => {
         React Projects
       </h2>
       <div className="md:grid  md:grid-cols-2 md:gap-4">
+        <div className="flex flex-col p-6 items-center text-center shadow-2xl">
+          <a
+            href="https://listener.wokpa.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <h3 className="dark:text-[#B33030] font-bold pb-2">
+            lendocredit
+            </h3>
+          </a>
+          <a
+            href="https://listener.wokpa.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              className="mx-auto w-100 h-60 rounded "
+              src={Lendo}
+              alt="profile"
+            />
+          </a>
+          <p className="dark:text-white py-2 text-gray-600">
+          A digital lending platform that is concerned about providing financial convenience in terms of loans with good interest to its new and returning customers.
+          </p>
+          <div className="grid grid-cols-3 gap-3">
+            <Button value={"Tailwind"} />
+            <Button value={"Next.js"} />
+            <Button value={"React Query"} />
+            <Button value={"SEO"} />
+            <Button value={"Animation"} />
+          </div>
+        </div>
         <div className="flex flex-col p-6 items-center text-center shadow-2xl">
           <a
             href="https://listener.wokpa.app/"
